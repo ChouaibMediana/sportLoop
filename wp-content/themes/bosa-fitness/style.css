@@ -1,0 +1,186 @@
+/*!
+Theme Name: Bosa Fitness
+Theme URI: https://bosathemes.com/bosa-fitness
+Author: Bosa Themes
+Author URI: https://bosathemes.com
+Description: Bosa Fitness is multipurpose fitness theme. Bosa Fitness is beautiful, fast, lightweight, responsive, extremely customizable theme that you can use as a foundation to build versatile sites such as yoga, gyms, mediation classes, wellness center, gymnastic coaching, body building, health, sports center, crossfit, aerobic, workout, boxing classes, martial arts, personal trainers, and preferably ideal for any type of fitness center websites. Bosa Fitness is a child theme of Bosa, a free multipurpose WordPress theme. Bosa Fitness works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa Fitness is built with SEO, speed, and usability in mind with the multiple Header & Footer layouts, predesigned starter sites includes awesome Home & Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa Fitness is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose Fitness theme? Look no further! Browse the demo to see that it's the only theme you will ever need: https://demo.bosathemes.com/bosa/fitness
+Version: 1.0.2
+Requires PHP: 5.5
+Tested up to: 6.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: bosa
+Text Domain: bosa-fitness
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Bosa Fitness WordPress Theme, Copyright 2022 Bosa Themes
+Bosa Fitness is distributed under the terms of the GNU General Public License v3
+
+Bosa Fitness is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+body {
+  color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  color: #111111;
+  font-family: 'Montserrat', serif;
+  font-weight: 600;
+}
+
+.wp-block-quote {
+  padding: 30px 30px 30px 50px;
+  margin: 30px 0 30px 30px;
+}
+
+.site-header .site-branding .site-title {
+  font-family: 'Montserrat', serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: none;
+}
+
+.site-header .site-branding .site-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.main-navigation ul.menu > li > a {
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.section-banner .banner-content .entry-title {
+  font-family: 'Montserrat', serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.section-banner .banner-content .entry-meta a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+.section-banner .banner-content .entry-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  text-transform: initial;
+}
+
+.feature-posts-content-wrap .feature-posts-content .feature-posts-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.post .feature-posts-content .cat-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.post .feature-posts-content .entry-meta a,
+#primary .entry-meta,
+.highlight-post-slider .post .entry-meta a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+#primary article .entry-title {
+  font-family: 'Montserrat', serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.highlight-post-slider .post .entry-content .entry-title {
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.highlight-post-slider .post .cat-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.sidebar .widget .widget-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.page-title {
+  font-family: 'Montserrat', serif;
+  font-size: 35px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.site-footer .site-info,
+.site-footer .footer-menu ul li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px,
+  text-transform: none,
+  line-height: 1.6,
+}
+
+.bosa-fitness-contact .wpcf7-submit {
+  background-color: #F63C25;
+}
+
+.bosa-fitness-contact input[type=text],
+.bosa-fitness-contact input[type=email],
+.bosa-fitness-contact textarea {
+  border: 1px solid #bcbcbc;
+}

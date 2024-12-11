@@ -1,0 +1,11 @@
+# Ignore sensitive files
+wp-config.php
+
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore backups
+*.zip
+*.tar.gz

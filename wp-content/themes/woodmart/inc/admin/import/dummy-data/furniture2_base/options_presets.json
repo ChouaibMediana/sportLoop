@@ -1,0 +1,14 @@
+{
+    "2": {
+        "pages-background": {
+            "color": "rgb(255,255,255)",
+            "url": "",
+            "id": "",
+            "repeat": "",
+            "size": "",
+            "attachment": "",
+            "position": ""
+        },
+        "fields_to_save": "pages-background"
+    }
+}

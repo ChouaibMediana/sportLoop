@@ -1,0 +1,14 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Added proper escape functions.
+
+Version 1.2
+i) Theme updated as per latest WordPress standards.
+
+Version 1.2.1
+i) Theme updated with minor CSS changes.
+
+Version 1.2.2
+i) Theme updated with minor CSS changes.

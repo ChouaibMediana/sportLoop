@@ -1,0 +1,125 @@
+.banner-section, .article-outer-box{
+  width: auto;
+  height: auto;
+}
+.banner-section {
+  min-height: 600px;
+}
+/*Banner section*/
+.banner-section .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
+.banner-section {
+  min-height: 600px;
+}
+.banner-section h1{
+  font-size: 40px !important;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.banner-section p {
+  font-size: 16px !important;
+  letter-spacing: 0;
+  line-height: 2 !important;
+}
+.banner-section .wp-block-buttons.alignleft{
+  border: none !important;
+}
+.banner-section a.wp-block-button__link{
+  text-decoration: none;
+}
+.banner-section a.wp-block-button__link:hover{
+  background: #fff !important;
+  color: #fb6935 !important;
+}
+/*Article section*/
+.article-outer-box {
+  margin-top: 30px;
+}
+.article-container {
+  margin: 0 auto !important;
+  max-width: 1140px !important; 
+}
+.services-box img {
+    width: auto !important;
+}
+.article-outer-box h2:before{
+  content: "";
+  background: url(../images/title-icon1.png) no-repeat left;
+  padding: 15px;
+}
+.article-outer-box h2{
+  font-size: 18px !important;
+  letter-spacing: 1px;
+}
+.article-outer-box h2:after{
+  content: "";
+  background: url(../images/title-icon2.png) no-repeat right;
+  padding: 15px;
+}
+h3.has-text-align-center {
+  font-size: 1.5rem !important;
+}
+h4.has-text-align-left {
+  font-size: 15px !important;
+  letter-spacing: 1px;
+  margin: 0 0 5px !important;
+}
+.article-container img{
+  width: 100% !important;
+}
+.services-box img{
+  width: auto !important;
+}
+.banner-section h1, .banner-section p, .article-outer-box h3, .services-box h4{
+  color: #fff !important;
+}
+.banner-section{
+  background-size: cover !important;
+}
+@media screen and (max-width:781px) {
+  .banner-section p{
+    font-size: 13px !important;
+  }
+  .banner-section {
+    min-height: auto;
+  }
+}
+@media screen and (max-width:781px) {
+  .wp-block-columns.alignwide {
+    margin: 0;
+  }
+  .banner-section .wp-block-column.is-vertically-aligned-center{
+    position: static;
+    margin-left: 30px;
+  }
+  .banner-section {
+    min-height: 350px !important;
+  }
+  .article-outer-box .wp-block-columns {
+    flex-wrap: nowrap !important;
+  }
+}
+@media screen and (max-width:1024px) {
+  .banner-section h1 {
+    font-size: 30px !important;
+  }
+  .wp-block-cover.alignfull.article-outer-box {
+    margin: 0;
+  }
+  .banner-section {
+    min-height: 450px;
+  }
+}
+@media screen and (max-width: 524px){
+  .article-outer-box .wp-block-columns{
+    flex-wrap: wrap !important;
+  }
+}
+@media screen and (min-width: 525px) and (max-width: 767px){
+  .article-outer-box .article-container{
+    flex-wrap: wrap !important;
+  }
+}
