@@ -2,10 +2,10 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /FSA/SPORTLOOP-Project_Wordpress-main/
+RewriteBase /wordpress1/CMS/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /FSA/SPORTLOOP-Project_Wordpress-main/index.php [L]
+RewriteRule . /wordpress1/CMS/index.php [L]
 </IfModule>
 # END WordPress
